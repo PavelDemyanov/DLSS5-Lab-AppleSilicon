@@ -1,0 +1,19 @@
+DLSS5-Lab-AppleSilicon (experimental)
+Copyright 2026 Pavel Demyanov and contributors.
+Original integration code is licensed under the MIT License (see LICENSE).
+
+Independent, unofficial experimental HT neural-rendering integration for the
+native macOS version of Cyberpunk 2077. Not an NVIDIA product or an official
+DLSS 5 SDK integration; not endorsed by NVIDIA, Apple, Valve, or CD PROJEKT RED.
+DLSS, NVIDIA, Cyberpunk 2077 and other product names belong to their owners.
+
+This repository includes adaptations of MIT-licensed overlay/rendering code.
+The inference runtime is fetched separately from MLX-DLSS (Apache 2.0) and
+uses MLX Swift/MLX (MIT). See third_party/README.md and third_party/licenses/.
+Upstream license texts and copyright notices are preserved separately.
+
+No NVIDIA binaries, model weights, converted model packages, game files,
+saves, or private captures are distributed. Licenses for source code do not
+grant rights to model weights or game assets. Users supply their own inputs
+under applicable terms. A locally built app containing weights is for local
+use and is not an approved redistributable release package.

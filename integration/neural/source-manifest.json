@@ -1,0 +1,63 @@
+[
+  {
+    "source": "vendor/dlss5-macos-overlay/Sources/NeuralScreenMac/RenderEngine.swift",
+    "copy": "Sources/NRNeuralBridge/Generated/RenderEngine.swift",
+    "mode": "adapted",
+    "sourceSHA256": "e376878d66d5fada46faa528ea6c2a297a7108e25d055de9eda7d331aa761ccd",
+    "generatedSHA256": "3c3a6e5aaef6a12473aac5b48a2ec5f31353c5b982f6e517c4639c57203044e3",
+    "sha256": "3c3a6e5aaef6a12473aac5b48a2ec5f31353c5b982f6e517c4639c57203044e3",
+    "adaptation": {
+      "id": "live-settings-resource-reuse-and-wall-timings-v2",
+      "sourceSHA256": "e376878d66d5fada46faa528ea6c2a297a7108e25d055de9eda7d331aa761ccd",
+      "adaptedSHA256": "3c3a6e5aaef6a12473aac5b48a2ec5f31353c5b982f6e517c4639c57203044e3",
+      "changes": [
+        "Add async history-only reset retaining the current boundary, writer, and flow session",
+        "Use history-only reset for timestamp gaps after at least one frame",
+        "Preserve writer/flow allocations for control changes and zero intensity",
+        "Keep hard reset for model, geometry, and temporal-mode changes",
+        "Record stage wall timings without additional GPU synchronization"
+      ]
+    },
+    "upstreamRepository": "https://github.com/gtrg55/dlss5-macos-overlay",
+    "upstreamRevision": "0d4caa1fd36d2581785efa80e6ade09983a18f05"
+  },
+  {
+    "source": "vendor/dlss5-macos-overlay/Sources/NeuralScreenMac/MetalFrames.swift",
+    "copy": "Sources/NRNeuralBridge/Generated/MetalFrames.swift",
+    "mode": "byte-identical",
+    "sourceSHA256": "919cb8105ebb27cec137112bdfe25a8ca94f1abe9d19adf27f870e627d5d91a8",
+    "generatedSHA256": "919cb8105ebb27cec137112bdfe25a8ca94f1abe9d19adf27f870e627d5d91a8",
+    "sha256": "919cb8105ebb27cec137112bdfe25a8ca94f1abe9d19adf27f870e627d5d91a8",
+    "upstreamRepository": "https://github.com/gtrg55/dlss5-macos-overlay",
+    "upstreamRevision": "0d4caa1fd36d2581785efa80e6ade09983a18f05"
+  },
+  {
+    "source": "vendor/dlss5-macos-overlay/Sources/NeuralScreenMac/Shaders.metal",
+    "copy": "Resources/Shaders.metal",
+    "mode": "byte-identical",
+    "sourceSHA256": "92d703343094471fac49582c48575dd1d94403c6987c524ff1eac82723274c18",
+    "generatedSHA256": "92d703343094471fac49582c48575dd1d94403c6987c524ff1eac82723274c18",
+    "sha256": "92d703343094471fac49582c48575dd1d94403c6987c524ff1eac82723274c18",
+    "upstreamRepository": "https://github.com/gtrg55/dlss5-macos-overlay",
+    "upstreamRevision": "0d4caa1fd36d2581785efa80e6ade09983a18f05"
+  },
+  {
+    "source": "vendor/dlss5-macos-overlay/Sources/ScreenCore/RenderSettings.swift",
+    "copy": "Sources/ScreenCore/RenderSettings.swift",
+    "mode": "byte-identical",
+    "sourceSHA256": "2269a5263173e8e0fb76d645200bd72c1099c71f1b959a4dcb604613135eb827",
+    "generatedSHA256": "2269a5263173e8e0fb76d645200bd72c1099c71f1b959a4dcb604613135eb827",
+    "sha256": "2269a5263173e8e0fb76d645200bd72c1099c71f1b959a4dcb604613135eb827",
+    "upstreamRepository": "https://github.com/gtrg55/dlss5-macos-overlay",
+    "upstreamRevision": "0d4caa1fd36d2581785efa80e6ade09983a18f05"
+  },
+  {
+    "source": "local-integration/FrameFreshness.swift",
+    "copy": "Sources/ScreenCore/FrameFreshness.swift",
+    "mode": "byte-identical",
+    "sourceSHA256": "6e8cc26a636b22a40a01f17b12f0f3cdc2b781e2872f207d2c6055159f425941",
+    "generatedSHA256": "6e8cc26a636b22a40a01f17b12f0f3cdc2b781e2872f207d2c6055159f425941",
+    "sha256": "6e8cc26a636b22a40a01f17b12f0f3cdc2b781e2872f207d2c6055159f425941",
+    "origin": "Local integration work; not present in upstream overlay commit"
+  }
+]

@@ -1,0 +1,21 @@
+# Local inputs and generated output (never publish model weights or game files).
+/vendor/
+/models/
+/artifacts/
+/.venv/
+/build/
+/dist/
+**/.build/
+**/__pycache__/
+**/*.pyc
+/integration/build/
+/integration/neural/dist/
+/integration/neural/results/
+.DS_Store
+*.app/
+*.dylib
+*.dll
+*.metallib
+*.safetensors
+*.dlssmodel/
+*.log
