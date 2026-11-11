@@ -6,6 +6,12 @@ An independent HT neural-rendering experiment inside the **native macOS Steam ve
 
 The repository contains source code only. **No model weights, NVIDIA libraries, game files, or ready-to-run app containing weights are provided.** You need your own compatible, prepared HT package under the terms that apply to it. A clone alone cannot enable the effect.
 
+## Video demo
+
+**[Watch the ON/OFF demo on YouTube (3:58)](https://youtu.be/_ECFX1ww3s0)**
+
+Cyberpunk 2077 running natively on an Apple MacBook Pro with M4 Max, with experimental HT processing toggled on and off during gameplay. This is a visual comparison, not an FPS benchmark.
+
 ## What works
 
 - Processing is composited into the game's Metal frame, with an optional original/processed split.
